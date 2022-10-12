@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-page {
+  width: 1920px;
+  height: 1189px;
+  display: flex;
+}
+
+/* Side Bar Start */
+
+.side-bar {
+  width: 224px;
+  height: 1189px;
+  background-color: black;
+}
+.logo {
+  width: 124.47px;
+  height: 68.21px;
+  margin: 11px 49.53px 0 50px;
+}
+.menu {
+  margin-top: 30px;
+}
+.menu-icon {
+  margin-right: 22px;
+  margin-left: 42px;
+}
+.menu-icon:hover {
+  color: #ff7901;
+}
+.menu-item {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #7d7d7e;
+}
+.menu-item:hover {
+  color: #ffffff;
+}
+
+/* Side Bar end */
+
+.home-page {
+  width: 1696px;
+  height: 1189px;
+  background-color: aqua;
+}
