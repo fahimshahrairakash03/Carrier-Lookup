@@ -278,6 +278,33 @@
   width: 70%;
   border: 1px solid #f2f2f4;
 }
+.contact-form {
+  margin-top: 21px;
+  margin-left: 388px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.contact-form-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #7d7d7e;
+}
+.contact-form-text span {
+  color: orange;
+}
+.contact-form-input {
+  width: 450px;
+  height: 60px;
+  border: 1px solid #f2f2f4;
+  border-radius: 10px;
+}
+.contact-email {
+  margin-right: 30px;
+}
+
 /* Main End */
 
 /* Home Page end */
