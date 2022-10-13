@@ -145,7 +145,7 @@
 }
 .user-details {
   text-align: center;
-  margin: 0 86px 71px 67px;
+  margin: 0 80px 71px 67px;
 }
 .user-details p {
   font-family: "Poppins";
@@ -303,6 +303,28 @@
 }
 .contact-email {
   margin-right: 30px;
+}
+.contact-break {
+  margin-left: 318px;
+  margin-top: 30px;
+  width: 70%;
+  border: 1px solid #f2f2f4;
+}
+.save-change-btn {
+  margin-left: 318px;
+  margin-top: 30px;
+  width: 150px;
+  height: 48px;
+  background: #ff7901;
+  box-shadow: 0px 20px 50px rgba(255, 121, 1, 0.3);
+  border-radius: 5px;
+  border: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
 }
 
 /* Main End */
