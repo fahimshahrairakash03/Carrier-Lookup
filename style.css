@@ -333,7 +333,7 @@
 
 /* Media query  */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .side-bar {
     width: 100px;
     height: 2130px;
