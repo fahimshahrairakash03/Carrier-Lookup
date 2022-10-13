@@ -333,10 +333,10 @@
 
 /* Media query  */
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 700px) {
   .side-bar {
     width: 100px;
-    height: 700px;
+    height: 2130px;
     background-color: black;
   }
   .logo {
@@ -403,8 +403,52 @@
   .card-info {
     border: 1px solid #f2f2f4;
     border-radius: 10px;
-    width: 450px;
+    width: 280px;
     height: 650px;
     background: #ffffff;
+  }
+  .card-container {
+    margin-left: 5px;
+  }
+  .card-details {
+    width: 250px;
+    margin-left: 5px;
+  }
+  .card-name {
+    font-size: 15px;
+    margin-right: 0;
+  }
+  .setting-catagory {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  .setting-options {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .profile-setting {
+    width: 280px;
+    height: 680px;
+    margin-left: 20px;
+  }
+  .contact-form {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-email {
+    margin-left: 0;
+  }
+  .contact-form-input {
+    width: 200px;
+  }
+  .contact-break {
+    margin-left: 10px;
+  }
+  .save-change-btn {
+    margin-left: 20px;
   }
 }
