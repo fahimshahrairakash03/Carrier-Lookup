@@ -336,7 +336,7 @@
 @media screen and (max-width: 900px) {
   .side-bar {
     width: 100px;
-    height: 2130px;
+    height: 2200px;
     background-color: black;
   }
   .logo {
@@ -366,7 +366,10 @@
   }
   .btn_navbar {
     margin-left: 10px;
-    width: 180px;
+    width: 160px;
+  }
+  .btn_icon {
+    margin-right: 0;
   }
   .btn-text {
     font-size: 13px;
@@ -379,7 +382,7 @@
     margin: 20px;
   }
   .user {
-    width: 280px;
+    width: 260px;
     margin-bottom: 10px;
   }
   .user-name {
@@ -403,7 +406,7 @@
   .card-info {
     border: 1px solid #f2f2f4;
     border-radius: 10px;
-    width: 280px;
+    width: 260px;
     height: 650px;
     background: #ffffff;
   }
@@ -411,7 +414,7 @@
     margin-left: 5px;
   }
   .card-details {
-    width: 250px;
+    width: 240px;
     margin-left: 5px;
   }
   .card-name {
@@ -430,7 +433,7 @@
     margin-right: 20px;
   }
   .profile-setting {
-    width: 280px;
+    width: 260px;
     height: 680px;
     margin-left: 20px;
   }
