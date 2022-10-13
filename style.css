@@ -330,3 +330,27 @@
 /* Main End */
 
 /* Home Page end */
+
+/* Media query  */
+
+@media screen and (max-width: 990px) {
+  .side-bar {
+    width: 100px;
+    height: 1189px;
+    background-color: black;
+  }
+  .logo {
+    width: 90px;
+    margin-left: 7px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-icon {
+    width: 20px;
+    margin-right: 40px;
+  }
+}
