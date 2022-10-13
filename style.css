@@ -336,7 +336,7 @@
 @media screen and (max-width: 990px) {
   .side-bar {
     width: 100px;
-    height: 1189px;
+    height: 700px;
     background-color: black;
   }
   .logo {
@@ -352,5 +352,59 @@
   .menu-icon {
     width: 20px;
     margin-right: 40px;
+  }
+  .navbar {
+    width: 500px;
+  }
+  .balance-text {
+    margin-left: 5px;
+    font-size: 13px;
+  }
+  .balance-amt {
+    font-size: 20px;
+    margin-left: 0;
+  }
+  .btn_navbar {
+    margin-left: 10px;
+    width: 180px;
+  }
+  .btn-text {
+    font-size: 13px;
+    line-height: 30px;
+    margin: 15px 0;
+  }
+  .user-information {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .user {
+    width: 280px;
+    margin-bottom: 10px;
+  }
+  .user-name {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    color: #26262e;
+    margin-right: 80px;
+    margin-left: 75px;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 70px 30px;
+  }
+  .card-details {
+    margin-bottom: 10px;
+  }
+  .card-info {
+    border: 1px solid #f2f2f4;
+    border-radius: 10px;
+    width: 450px;
+    height: 650px;
+    background: #ffffff;
   }
 }
