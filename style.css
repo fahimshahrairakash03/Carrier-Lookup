@@ -366,7 +366,7 @@
   }
   .btn_navbar {
     margin-left: 10px;
-    width: 160px;
+    width: 155px;
   }
   .btn_icon {
     margin-right: 0;
@@ -379,7 +379,7 @@
   .user-information {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 20px 20px 20px 10px;
   }
   .user {
     width: 260px;
@@ -435,7 +435,7 @@
   .profile-setting {
     width: 260px;
     height: 750px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .contact-form {
     margin-left: 20px;
