@@ -49,6 +49,7 @@
 /* Home Page Start */
 
 .home-page {
+  position: relative;
   width: 1696px;
   height: 1189px;
   background-color: #fcfbff;
@@ -90,6 +91,7 @@
   border-radius: 45px;
   margin: 15px 30px;
   display: flex;
+  z-index: 2;
 }
 .btn_img {
   margin: 10px;
@@ -106,6 +108,56 @@
   width: 12px;
   height: 6px;
   margin: 27px 20px 27px 13px;
+}
+.btn-dropdown {
+  position: absolute;
+  top: 0;
+  right: 0;
+  visibility: hidden;
+  margin-top: 40px;
+  margin-right: 37px;
+  width: 200px;
+  z-index: 1;
+  height: 297px;
+  background: #ffffff;
+  border: 1px solid #f2f2f4;
+  box-shadow: 0px 30px 20px -20px rgba(198, 211, 232, 0.2);
+  border-radius: 10px;
+}
+.btn-dropdown-visibility {
+  visibility: visible;
+}
+.btn_icon.active {
+  top: 2rem;
+  transition: 0.4s linear;
+}
+.btn-dropdown-options {
+  margin-top: 59px;
+  margin-left: 20px;
+}
+.dropsown-option {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #7d7d7e;
+  margin-bottom: 10px;
+}
+.btn-logout {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 160px;
+  border: 0;
+  height: 48px;
+  background: rgba(255, 1, 1, 0.1);
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ff5e5e;
 }
 
 /* Navbar end */
@@ -335,7 +387,7 @@
 
 /* Responsive for tabs */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 740px) {
   .main-page {
     width: 100%;
   }
@@ -380,6 +432,14 @@
     font-size: 13px;
     line-height: 30px;
     margin: 15px 0;
+  }
+  .btn-dropdown {
+    width: 150px;
+    height: 330px;
+    margin-right: 50px;
+  }
+  .btn-logout {
+    width: 110px;
   }
   .user-information {
     display: flex;
@@ -505,6 +565,14 @@
     font-size: 13px;
     line-height: 30px;
     margin: 15px 0;
+  }
+  .btn-dropdown {
+    width: 150px;
+    height: 330px;
+    margin-right: 222px;
+  }
+  .btn-logout {
+    width: 110px;
   }
   .user-information {
     display: flex;
